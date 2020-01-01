@@ -12,7 +12,7 @@
  
  "*yum updade && yum install nginx -y*" - Для семейства **Red Hat** Linux
 ## Версионирование <h2> 
- Я использую [SemVer](https://semver.org/lang/ru/) для управления версиями. Доступные версии см. в _[тегах этого репозитория](https://gitlab.rebrainme.com/plessuk/rebrain-devops-task-checkout/-/tags)_
+ Я использую [SemVer](https://semver.org/lang/ru/) для управления версиями. Доступные версии см. в _[тегах этого репозитория](https://gitlab.rebrainme.com/plessuk/rebrain-devops-task-checkout/-/tags)
 ## Авторы <h2> 
 *Плесовских Сергей -- "Начальный этап работы" -- [Plessuk](https://gitlab.rebrainme.com/plessuk)
  

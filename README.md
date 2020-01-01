@@ -15,4 +15,5 @@
  Я использую [SemVer](https://semver.org/lang/ru/) для управления версиями. Доступные версии см. в тегах этого репозитория
 ### Авторы <h3> 
 * Плесовских Сергей -- "Начальный этап работы" -- [Plessuk](https://gitlab.rebrainme.com/plessuk)
+ 
 См. __[список](https://gitlab.rebrainme.com/plessuk/rebrain-devops-task-checkout/commits/master)__ тех, кто вносил правки в проект.

@@ -21,3 +21,4 @@
 Этот проект лицензируется в соответствии с лицензией [GNU GPL](https://ru.wikipedia.org/wiki/GNU_General_Public_License)
 ## Благодарности <h2>
 * Благодарность [Rebrain](https://rebrainme.com/) за вдохновение и мотивацию
+![Rebrain]:(https://rebrainme.com/img/reb.png)

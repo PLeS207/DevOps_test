@@ -4,10 +4,11 @@
  - [ ] Clone with SSH
  - [ ] Clone with HTTPS
 ### Установка ПО <h3> 
- Для работы с nginx.conf необходимо установить программу nginx
- ##### Для Windows пользователей <h4>
+ Для работы с nginx.conf необходимо установить веб-сервер nginx
+ #### Для Windows пользователей <h3>
  [Скачать](https://nginx.org/ru/download.html)
- ##### Для Linux пользователей <h4>
+ #### Для Linux пользователей <h3>
  ***apt uptade && apt install nginx -y***
+ 
   ***yum uptade && yum install nginx -y***
 

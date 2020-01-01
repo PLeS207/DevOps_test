@@ -6,7 +6,7 @@
 ### Установка ПО <h3> 
  Для работы с nginx.conf необходимо установить веб-сервер nginx
  #### Для Windows пользователей <h3>
- [Скачать](https://nginx.org/ru/download.html)
+ [Скачать Nginx](https://nginx.org/ru/download.html)
  #### Для Linux пользователей <h3>
  "*apt updade && apt install nginx -y*" - Для семейства **Debian** Linux
  

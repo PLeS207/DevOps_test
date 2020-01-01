@@ -22,4 +22,4 @@
 ## Благодарности <h2>
 * Благодарность [Rebrain](https://rebrainme.com/) за вдохновение и мотивацию
  
-![Rebrain](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpOetpXfIIt3c1uPwn6NYUgo6TKpZIUUaVN_Q0hlczR4rLhy9I)
+![Rebrain](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvRlDhtI-qRk2HcDStpByu8xW8z7x8Hk4MVG8dVluxtxQsCzas)

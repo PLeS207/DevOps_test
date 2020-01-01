@@ -22,4 +22,4 @@
 ## Благодарности <h2>
 * Благодарность [Rebrain](https://rebrainme.com/) за вдохновение и мотивацию
  
-![Rebrain]:(https://rebrainme.com/img/reb.png)
+![Rebrain](https://rebrainme.com/img/reb.png)

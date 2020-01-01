@@ -8,7 +8,7 @@
  #### Для Windows пользователей <h3>
  [Скачать](https://nginx.org/ru/download.html)
  #### Для Linux пользователей <h3>
- *apt updade && apt install nginx -y* - Для семейства **Debian** Linux
+ "*apt updade && apt install nginx -y*" - Для семейства **Debian** Linux
  
- *yum updade && yum install nginx -y* - Для семейства **Red Hat** Linux
+ "*yum updade && yum install nginx -y*" - Для семейства **Red Hat** Linux
 

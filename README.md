@@ -11,4 +11,6 @@
  "*apt updade && apt install nginx -y*" - Для семейства **Debian** Linux
  
  "*yum updade && yum install nginx -y*" - Для семейства **Red Hat** Linux
+### Версионирование <h3> 
+ Я использую [SemVer](https://semver.org/lang/ru/) для управления версиями. Доступные версии см. в тегах этого репозитория
 

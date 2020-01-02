@@ -8,9 +8,9 @@
  #### Для Windows пользователей <h3>
  [Скачать Nginx](https://nginx.org/ru/download.html)
  #### Для Linux пользователей <h3>
- "*apt updade && apt install nginx -y*" - Для семейства **Debian** Linux
+ `"*apt updade && apt install nginx -y*"` - Для семейства **Debian** Linux
  
- "*yum updade && yum install nginx -y*" - Для семейства **Red Hat** Linux
+ `"*yum updade && yum install nginx -y*"` - Для семейства **Red Hat** Linux
 ## Версионирование <h2> 
  Я использую [SemVer](https://semver.org/lang/ru/) для управления версиями. Доступные версии см. в _[тегах этого репозитория](https://gitlab.rebrainme.com/plessuk/rebrain-devops-task-checkout/-/tags)_
 ## Авторы <h2> 

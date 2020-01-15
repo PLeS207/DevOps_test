@@ -16,14 +16,14 @@ Requirements
 Downloading and install Go
 ---------------------
 
-- At the time of writing this article, the latest stable version of Go is version 1.13. Before downloading the tarball, visit the official Go [downloads page](https://golang.org/dl/) and check if there is a new version available.
+At the time of writing this article, the latest stable version of Go is version 1.13. Before downloading the tarball, visit the official Go [downloads page](https://golang.org/dl/) and check if there is a new version available.
 To download the Go binary, you can use either [wget](https://linuxize.com/post/wget-command-examples/) or [curl](https://linuxize.com/post/curl-command-examples/):
 ```sh
 $ wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 ```
-##### Extracting the Go tarball
+#### Extracting the Go tarball
 
-- Use [tar to extract](https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/) the tarball to the /usr/local directory:
+Use [tar to extract](https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/) the tarball to the /usr/local directory:
 ```sh
 $ sudo tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 ```

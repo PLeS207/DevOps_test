@@ -28,8 +28,19 @@ Use [tar to extract](https://linuxize.com/post/how-to-create-and-extract-archive
 $ sudo tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 ```
 
-Building The Provider
----------------------
+####  Adjusting the Path Variable
+
+In order for the system to know where to find the Go executable binaries, we need to adjust the [$PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/) environment variable. We can do this by appending the following line to the */etc/profile* file (for a system-wide installation) or the *$HOME/.profile* file (for a current user installation):
+```sh
+$ export PATH=$PATH:/usr/local/go/bin
+```
+Save the file, and load the new PATH environment variable into the current shell session:
+```sh
+$ source ~/.profile
+```
+
+## Building The Provider
+
 
 Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-$PROVIDER_NAME`
 

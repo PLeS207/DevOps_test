@@ -13,7 +13,7 @@ Terraform Provider
 -	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
 -	[Go](https://golang.org/doc/install) 1.8 (to build the provider plugin)
 
-## Downloading and install Go
+## 1 Downloading and install Go
 
 
 At the time of writing this article, the latest stable version of Go is version 1.13. Before downloading the tarball, visit the official Go [downloads page](https://golang.org/dl/) and check if there is a new version available.
@@ -21,22 +21,32 @@ To download the Go binary, you can use either [wget](https://linuxize.com/post/w
 ```sh
 $ wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 ```
-#### Extracting the Go tarball
+#### 1.2 Extracting the Go tarball
 
 Use [tar to extract](https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/) the tarball to the /usr/local directory:
 ```sh
 $ sudo tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 ```
 
-####  Adjusting the Path Variable
+#### 1.3 Adjusting the Path Variable
 
-In order for the system to know where to find the Go executable binaries, we need to adjust the [$PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/) environment variable. We can do this by appending the following line to the */etc/profile* file (for a system-wide installation) or the *$HOME/.profile* file (for a current user installation):
+In order for the system to know where to find the Go executable binaries, we need to adjust the [$PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/) environment variable. We can do this by appending the following line to the _*/etc/profile*_ file (for a system-wide installation) or the _*$HOME/.profile*_ file (for a current user installation):
 ```sh
 $ export PATH=$PATH:/usr/local/go/bin
 ```
 Save the file, and load the new PATH environment variable into the current shell session:
 ```sh
 $ source ~/.profile
+```
+#### 1.4 Verifying the Go Installation
+
+Verify the installation by printing the Go version
+```sh
+$ go version
+```
+The output should look something like this:
+```sh
+go version go1.13 linux/amd64
 ```
 
 ## Building The Provider

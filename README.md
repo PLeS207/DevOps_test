@@ -7,14 +7,14 @@ Terraform Provider
 
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
 
-Requirements
-------------
+## Requirements
+
 
 -	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
 -	[Go](https://golang.org/doc/install) 1.8 (to build the provider plugin)
 
-Downloading and install Go
----------------------
+## Downloading and install Go
+
 
 At the time of writing this article, the latest stable version of Go is version 1.13. Before downloading the tarball, visit the official Go [downloads page](https://golang.org/dl/) and check if there is a new version available.
 To download the Go binary, you can use either [wget](https://linuxize.com/post/wget-command-examples/) or [curl](https://linuxize.com/post/curl-command-examples/):

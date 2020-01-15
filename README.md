@@ -21,7 +21,7 @@ To download the Go binary, you can use either [wget](https://linuxize.com/post/w
 ```sh
 $ wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 ```
-### Extracting the Go tarball
+##### Extracting the Go tarball
 
 - Use [tar to extract](https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/) the tarball to the /usr/local directory:
 ```sh

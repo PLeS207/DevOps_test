@@ -1,25 +1,69 @@
-## First install
-`cd var/www/ && cp .env.example .env` \
-`git clone git@{this-repository}` \
+Terraform Provider
+==================
 
-## Create DB
-`mysql -u root -p` \
-`GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' IDENTIFIED BY 'secret';` \
-`exit` \
-`mysql -u user -p` \
-`CREATE DATABASE app CHARACTER SET utf8 COLLATE utf8_general_ci;` \
-`exit` \
-`cat /var/backups/bacbackup.sql | /usr/bin/mysql -u root --password=secret app`
+- Website: https://www.terraform.io
+- [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
+- Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
 
-## Run cron and queue
-`* * * * * /usr/local/bin/php /var/www/artisan schedule:run >> /dev/null 2>&1` \
-`php artisan queue:work redis --queue=productInfo`
+<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
 
+Requirements
+------------
 
-## Release commands
-`git pull origin release` \
-`composer install --no-interaction --no-dev` \
-`php artisan migrate --force` \
-`php artisan view:clear` \
-`npm run init` \
-`npm run prod`
+-	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
+-	[Go](https://golang.org/doc/install) 1.8 (to build the provider plugin)
+
+Downloading the Go
+---------------------
+
+At the time of writing this article, the latest stable version of Go is version 1.13. Before downloading the tarball, visit the official Go [downloads page](https://golang.org/dl/) and check if there is a new version available.
+To download the Go binary, you can use either wget or curl:
+Building The Provider
+---------------------
+
+Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-$PROVIDER_NAME`
+
+```sh
+$ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
+$ git clone git@github.com:terraform-providers/terraform-provider-$PROVIDER_NAME
+```
+
+Enter the provider directory and build the provider
+
+```sh
+$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-$PROVIDER_NAME
+$ make build
+```
+
+Using the provider
+----------------------
+
+See the [DigitalOcean Provider documentation](https://www.terraform.io/docs/providers/do/index.html) to get started using the DigitalOcean provider.
+
+Developing the Provider
+---------------------------
+
+If you wish to work on the provider, you'll first need [Go](http://www.golang.org) installed on your machine (version 1.8+ is *required*). You'll also need to correctly setup a [GOPATH](http://golang.org/doc/code.html#GOPATH), as well as adding `$GOPATH/bin` to your `$PATH`.
+
+To compile the provider, run `make build`. This will build the provider and put the provider binary in the `$GOPATH/bin` directory.
+
+```sh
+$ make build
+...
+$ $GOPATH/bin/terraform-provider-$PROVIDER_NAME
+...
+```
+
+In order to test the provider, you can simply run `make test`.
+
+```sh
+$ make test
+```
+
+In order to run the full suite of Acceptance tests, run `make testacc`.
+
+*Note:* Acceptance tests create real resources, and often cost money to run.
+
+```sh
+$ make testacc
+```

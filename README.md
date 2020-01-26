@@ -11,7 +11,8 @@ Terraform Provider
 
 
 -	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
--	[Go](https://golang.org/doc/install) 1.8 (to build the provider plugin)
+-	[Vscale token](https://vscale.io/ru/)
+- [AWS *access_key* and *secret_key*](https://aws.amazon.com/ru/)
 
 ## 1 Downloading and install Go
 

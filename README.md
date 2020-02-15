@@ -8,7 +8,7 @@ This role installs NGINX Open Source, Generate nginx.conf and Add two virtual ho
 
 ###Description
 
-* handlers - contains handlers, which may be used by this role or even anywhere outside this role.
-* tasks - contains the main list of tasks to be executed by the role.
--**vars** - other variables for the role
--**templates** - contains templates which can be deployed via this role.
+* **handlers** - contains handlers, which may be used by this role or even anywhere outside this role.
+* **tasks** - contains the main list of tasks to be executed by the role.
+* **vars** - other variables for the role
+* **templates** - contains templates which can be deployed via this role.

@@ -1,32 +1,14 @@
-Terraform Provider
+Ansible NGINX Role
 ==================
 
-- Website: https://www.terraform.io
-- [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
-- Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-nginxinc.nginx-5bbdbf.svg)](https://galaxy.ansible.com/nginxinc/nginx)
+[![Build Status](https://travis-ci.org/nginxinc/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/nginxinc/ansible-role-nginx)
 
-<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
+This role installs NGINX Open Source, Generate nginx.conf and Add two virtual host in domains.conf
 
-## Requirements
+**Description**
 
-
--	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
--	[Vscale token](https://vscale.io/ru/)
-- [AWS **access_key** and **secret_key**](https://aws.amazon.com/ru/)
-
-## 1 Clone repository
-Choose how to clone the repository:
-```sh
-$ git@gitlab.rebrainme.com:plessuk/rebrain-devops-task-terraform-vscale-task6.git
-```
-or 
-```sh
-$ https://gitlab.rebrainme.com/plessuk/rebrain-devops-task-terraform-vscale-task6.git
-```
-## 2 Insert variables
-Use **terraform.tfvars.sample**  file and insert your variables
-Then run the terraform command
-```sh
-$ terraform plan
-```
-And You will see everything that will be created by terraform 
+*handlers* - contains handlers, which may be used by this role or even anywhere outside this role.
+*tasks* - contains the main list of tasks to be executed by the role.
+*vars* - other variables for the role
+*templates* - contains templates which can be deployed via this role.

@@ -12,4 +12,12 @@ This role installs NGINX Open Source, Generate nginx.conf and Add two virtual ho
 * **tasks** - contains the main list of tasks to be executed by the role.
 * **vars** - other variables for the role
 * **templates** - contains templates which can be deployed via this role.
+
+
+### How to  Use ###
+```sh
+$ ansible-playbook playbook.yml --tags "nginx"
+```
+
+https://itldc.com/wp-content/uploads/2014/06/nginx-logo-650x300.png
 ![Nginx](https://itldc.com/wp-content/uploads/2014/06/nginx-logo-650x300.png)

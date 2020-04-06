@@ -19,5 +19,5 @@ This role installs NGINX Open Source, Generate nginx.conf and Add two virtual ho
 $ ansible-playbook playbook.yml --tags "nginx"
 ```
 
-https://itldc.com/wp-content/uploads/2014/06/nginx-logo-650x300.png
+
 ![Nginx](https://itldc.com/wp-content/uploads/2014/06/nginx-logo-650x300.png)
